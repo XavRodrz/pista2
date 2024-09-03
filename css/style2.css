@@ -1,0 +1,80 @@
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-image: url('https://64.media.tumblr.com/8d9cdd9b18d40bc21844f6afb696ed24/6a5478d12ccddcfd-5e/s1280x1920/73363bc3e8d744c582fc75ea2a4e83c1ba378421.gifv');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #1eff00;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #2f2f2f;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #9c5421;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #654321;
+}
+
+#message {
+    margin-top: 20px;
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width: 480px) {
+    .box {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    input[type="number"] {
+        font-size: 0.9rem;
+    }
+}
